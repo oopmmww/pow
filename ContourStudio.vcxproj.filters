@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src\data" />
+    <Filter Include="src" />
+    <Filter Include="src\helpers" />
+    <Filter Include="src\widgets" />
+    <Filter Include="thirdparty\imgui\backends" />
+    <Filter Include="thirdparty\imgui" />
+    <Filter Include="thirdparty" />
+    <Filter Include="src\runtime" />
+    <Filter Include="thirdparty\freetype\win64" />
+    <Filter Include="thirdparty\freetype" />
+    <Filter Include="src\headers" />
+    <Filter Include="src\settings" />
+    <Filter Include="src\assets" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\data\font_resources.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\typeface_resources.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\drawing_context.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\font_registry.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\image_decoder.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\texture_loader.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\modal_backdrop.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\toggle_control.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\panel_container.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\selection_control.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\widget_layout.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\shortcut_control.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\range_control.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets\window_container.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_freetype.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\application_entry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runtime\memory_controller.cpp">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runtime\native_memory.cpp">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runtime\feature_controller.cpp">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runtime\head_protection.cpp">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runtime\protection_configuration.cpp">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window_lifecycle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <Library Include="thirdparty\freetype\win64\freetype.lib">
+      <Filter>thirdparty\freetype\win64</Filter>
+    </Library>
+    <ClInclude Include="src\data\font_registry.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\drawing_context.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\ui_types.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\font_registry.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\window_controller.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\application_includes.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\image_decoder.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\widget_catalog.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\theme_palette.h">
+      <Filter>src\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\layout_metrics.h">
+      <Filter>src\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\application_state.h">
+      <Filter>src\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\backends\imgui_impl_dx11.h">
+      <Filter>thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\backends\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_freetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\feature_controller.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\runtime_configuration.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\native_memory.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+    <MASM Include="src\runtime\native_memory.asm">
+      <Filter>src\runtime</Filter>
+    </MASM>
+    <ClInclude Include="src\head_visualization.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\neutral_head_resource.h">
+      <Filter>src\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\typeface_resources.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\window_lifecycle.h">
+      <Filter>src\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\head_protection.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\process_locator.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime\protection_builds.h">
+      <Filter>src\runtime</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
